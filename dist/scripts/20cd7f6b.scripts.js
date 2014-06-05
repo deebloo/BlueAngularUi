@@ -1,0 +1,1 @@
+"use strict";angular.module("blueUiApp",[]),angular.module("blueUiApp").controller("MainCtrl",["$scope",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]}]),angular.module("blueUiApp").directive("searchOption",function(){return{templateUrl:"views/search-option.html",restrict:"E",link:function(a){a.stuff="stuff"}}});
