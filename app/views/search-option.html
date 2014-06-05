@@ -1,0 +1,13 @@
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    {{currentOption}} <span class="caret"></span>
+  </button>
+
+  <ul class="dropdown-menu" role="menu">
+    <li class="search-option-filter" ng-click="preventClose($event)"> <input type="text" class="form-control" ng-model="search"> </li>
+
+    <li class="divider"></li>
+
+    <li ng-repeat="item in data | filter:search"><a href="#" ng-click="selectOption($event, item.title)">{{item.title}}</a></li>
+  </ul>
+</div>
