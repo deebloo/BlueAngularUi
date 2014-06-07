@@ -4,9 +4,9 @@
   </button>
 
   <ul class="dropdown-menu" role="menu">
-    <li class="search-option-filter" ng-click="preventClose($event)"> <input type="text" class="form-control" ng-model="search"> </li>
+    <li class="search-option-filter" ng-click="preventClose($event)" ng-show="searchable"> <input type="text" class="form-control" ng-model="search"> </li>
 
-    <li class="divider"></li>
+    <li class="divider" ng-if="searchable"></li>
 
     <li ng-repeat="item in data | filter:search"><a href="#" ng-click="selectOption($event, item.title)">{{item.title}}</a></li>
   </ul>

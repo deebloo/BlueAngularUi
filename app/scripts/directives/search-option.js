@@ -6,7 +6,9 @@ angular.module('blueUiApp')
       templateUrl: 'views/search-option.html',
       restrict: 'E',
       scope: {
-        data: '='
+        data: '=',
+        searchable: '=',
+        customClick: '=itemClick'
       },
       link: function postLink(scope) {
         scope.search = '';
@@ -21,6 +23,10 @@ angular.module('blueUiApp')
           $event.preventDefault();
 
           scope.currentOption = currentItem;
+
+          if(scope.customClick !== undefined) {
+            scope.customClick(angular.element($event.target));
+          }
         };
       }
     };
