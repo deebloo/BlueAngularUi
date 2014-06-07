@@ -3,7 +3,7 @@ Blue Angular Ui
 
 A ui component library for angular based on twitter bootstrap elements.
 
-Searchable Option Menu:
+#### Searchable Option Menu:
 
 | Attribute  | Type | Definition
 | ------------- | ------------- | ------------- |
