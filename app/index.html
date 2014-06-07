@@ -27,12 +27,12 @@
 
     <!-- Add your site or application content here -->
     <div class="container" ng-controller="MainCtrl">
-      <div class="header">
-        <h3 class="text-muted">Blue Angular Ui</h3>
-      </div>
+      <!-- Navbar-->
+      <h4>Navbar</h4>
+      <navbar></navbar>
 
-      <h4>Searchable options menu</h4>
-
+      <!-- Searchable option menu -->
+      <h4>Searchable option menu</h4>
       <search-option option-title="'Select Option'"
                      data="searchOptionData"
                      searchable="true"
@@ -68,6 +68,7 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/directives/search-option.js"></script>
+    <script src="scripts/directives/navbar.js"></script>
     <!-- endbuild -->
   </body>
 </html>
