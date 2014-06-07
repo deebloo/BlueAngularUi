@@ -8,12 +8,13 @@ angular.module('blueUiApp')
       scope: {
         data: '=',
         searchable: '=',
-        customClick: '=itemClick'
+        customClick: '=itemClick',
+        optionTitle: '='
       },
       link: function postLink(scope) {
         scope.search = '';
 
-        scope.currentOption = 'Select Option';
+        scope.currentOption = scope.optionTitle;
 
         scope.preventClose = function($event) {
           $event.stopPropagation();

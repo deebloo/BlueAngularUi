@@ -1,0 +1,23 @@
+.search-option {
+  width: 200px;
+}
+
+.search-option button {
+  width: 100%;
+}
+
+
+.search-option-filter {
+  padding: 4px 5px 0 5px;
+}
+
+.search-option .search-option-title > a {
+  color: lightgray;
+}
+
+.search-option ul.dropdown-menu {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  margin: -3px 0 0;
+  width: 100%;
+}
