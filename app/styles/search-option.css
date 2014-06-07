@@ -13,6 +13,7 @@
 
 .search-option .search-option-title > a {
   color: lightgray;
+  text-align: center;
 }
 
 .search-option ul.dropdown-menu {
