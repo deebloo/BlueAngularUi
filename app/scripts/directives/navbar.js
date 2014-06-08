@@ -9,9 +9,18 @@ angular.module('blueUiApp')
       templateUrl: 'views/navbar.html',
       restrict: 'E',
       scope: {
-        data: '='
+        data: '=',
+        navbarTitle: '='
       },
       link: function postLink(scope) {
+        scope.showTitle = function() {
+          if(scope.navbarTitle !== undefined) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+
         scope.activeNav = function(link) {
           /*
            * If the route contains '#!', remove it for comparison
