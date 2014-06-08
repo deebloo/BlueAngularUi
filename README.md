@@ -9,12 +9,13 @@ NOTE: in order for the active class to be added automatically $locationProvider 
 Ex. $locationProvider.html5Mode(false).hashPrefix('!');
 
 ```HTML
-<navbar data="navbarData"></navbar>
+<navbar data="navbarData" navbar-title="'Navbar'"></navbar>
 ```
 
 | Attribute  | Type | Definition
 | ------------- | ------------- | ------------- |
 | data  | array of objects  | 'title' and 'link 'required as object attributes |
+| navbar-title  | string  | if set title will display in the navbar, if not nothing will be displayed. |
 
 #### Searchable Option Menu:
 
