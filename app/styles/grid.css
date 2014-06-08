@@ -1,0 +1,28 @@
+.grid-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.grid-container .grid-header .row div {
+  background: sandybrown;
+  border: solid 1px #e7e7e7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-container .grid-filter-row .row div {
+   background: #ffffff;
+   border: solid 1px #e7e7e7;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+.grid-container .grid-body .row div {
+  border: solid 1px #e7e7e7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-container .grid-body .row:nth-child(odd) {
+  background: #f8f8f8;
+}
