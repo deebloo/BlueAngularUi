@@ -5,6 +5,8 @@ A ui component library for angular based on twitter bootstrap elements.
 This readme will be updated as more components are added.
 
 #### Navbar:
+NOTE: in order for the active class to be added automatically $locationProvider needs to be set in your application configuration.
+Ex. $locationProvider.html5Mode(false).hashPrefix('!');
 
 ```HTML
 <navbar data="navbarData"></navbar>
