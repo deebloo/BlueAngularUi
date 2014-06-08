@@ -3,5 +3,5 @@
 angular
   .module('blueUiApp', [])
   .config(function($locationProvider) {
-    $locationProvider.html5Mode(false).hashPrefix('!');
+    $locationProvider.html5Mode(true).hashPrefix('!');
   });

@@ -6,10 +6,10 @@ angular.module('blueUiApp')
      * Navbar Data array
      */
     $scope.navbarData = [
-      { title: 'home', link: '#!/' },
-      { title: 'foo', link: '#!/foo' },
-      { title: 'bar', link: '#!/bar' },
-      { title: 'baz', link: '#!/baz' }
+      { title: 'home', link: '/' },
+      { title: 'foo', link: '/foo' },
+      { title: 'bar', link: '/bar' },
+      { title: 'baz', link: '/baz' }
     ];
 
     /*

@@ -19,7 +19,7 @@ angular.module('blueUiApp')
           } else {
             return false;
           }
-        }
+        };
 
         scope.activeNav = function(link) {
           /*
@@ -28,16 +28,16 @@ angular.module('blueUiApp')
            * if not leave it alone
            * (HTML5 mode === true && in modern browser)
            */
-          var route = function() {
+          var route = (function() {
             if( link.indexOf('#!') > -1 ) {
               return link.replace('#!', '');
             } else {
               return link;
             }
-          }();
+          }());
 
           return $location.path() === route;
-        }
+        };
       }
     };
   });
