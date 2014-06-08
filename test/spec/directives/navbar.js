@@ -15,6 +15,7 @@ describe('Directive: navbar', function () {
   it('should make hidden element visible', inject(function ($compile) {
     element = angular.element('<navbar></navbar>');
     element = $compile(element)(scope);
-    // expect(element.text()).toBe('this is the navbar directive');
+
+    expect(element !== undefined).toBe(true);
   }));
 });

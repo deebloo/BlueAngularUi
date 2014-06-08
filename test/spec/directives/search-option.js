@@ -16,6 +16,6 @@ describe('Directive: searchOption', function () {
     element = angular.element('<search-option></search-option>');
     element = $compile(element)(scope);
 
-    // expect(element.text()).toBe('this is the searchOption directive');
+    expect(element !== undefined).toBe(true);
   }));
 });
