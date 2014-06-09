@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('blueUiApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function ($scope, $http) {
     /*
      * Navbar Data array
      */
@@ -30,4 +30,11 @@ angular.module('blueUiApp')
     $scope.searchOptionClick = function(el) {
       console.log( el.text() );
     };
+
+    /*
+     * Grid Data
+     */
+    $http.get('json/sample-data.json').success(function(data) {
+      $scope.gridData = data;
+    })
   });
