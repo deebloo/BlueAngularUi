@@ -1,18 +1,20 @@
 <div class="grid-container">
   <div class="grid-header">
     <div class="row">
-      <div class="col-sm-3" ng-repeat="i in createColumns() track by $index" ng-style="setWidth()">col</div>
+      <div class="col-sm-3" ng-repeat="column in gridModel" ng-style="setWidth()">{{column.title}}</div>
     </div>
   </div>
 
   <div class="grid-filter-row">
     <div class="row">
-      <div class="col-sm-3" ng-repeat="i in createColumns() track by $index" ng-style="setWidth()"> <input type="text" class="form-control"> </div>
+      <div class="col-sm-3" ng-repeat="column in gridModel" ng-style="setWidth()">
+        <input type="text" class="form-control">
+      </div>
     </div>
   </div>
 
   <div class="grid-body">
-    <div class="row" ng-repeat="item in data">
+    <div class="row" ng-repeat="item in finalData">
       <div class="col-sm-3" ng-repeat="attr in item" ng-style="setWidth()">{{attr}}</div>
     </div>
   </div>

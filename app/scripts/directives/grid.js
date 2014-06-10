@@ -6,33 +6,67 @@ angular.module('blueUiApp')
       templateUrl: 'views/grid.html',
       restrict: 'E',
       scope: {
-        data: '='
+        data: '=',
+        gridModel: '='
       },
-      //TODO create a 'model' for the grid
       link: function postLink(scope) {
-        scope.columnCount = function() {
-          var prop, propCount = -1;
+        scope.finalData = [];
+
+        scope.gridData = function() {
+          var data = [];
 
           if(scope.data !== undefined) {
-            for (prop in scope.data[0]) {
-              propCount++;
+            for(var y = 0; y < scope.data.length; y++) {
+              var record = {};
+
+              if(scope.gridModel !== undefined) {
+                for (var i = 0; i < scope.gridModel.length; i++) {
+                  var prop = scope.gridModel[i].name;
+
+                  record[prop] = scope.data[y][prop];
+                }
+
+                data.push(record);
+              }
             }
           }
 
+          scope.finalData = data;
+
+          return;
+        };
+
+        scope.$watch('data', function() {
+          console.log('I');
+          scope.gridData();
+        });
+
+        /*
+         * Get the number of columns to be created
+         */
+        scope.columnCount = function() {
+          var propCount = -1;
+
+          if(scope.gridModel !== undefined) {
+            for(var i = -1; i < scope.gridModel.length; i++) {
+              propCount++;
+            }
+          } else {
+            console.error('grid model must be defined');
+          }
+
           return propCount;
-        }
+        };
 
-        scope.createColumns = function() {
-          var length = scope.columnCount();
-
-          return new Array(length < 0 ? length + 1 : length);
-        }
-
+        /*
+         * Set the width for the columns.
+         * Take the number of columns and divide it by 100
+         */
         scope.setWidth = function() {
           var columnWidth = 100 / scope.columnCount();
 
-          return { width: columnWidth + '%' }
-        }
+          return { width: columnWidth + '%' };
+        };
       }
     };
   });

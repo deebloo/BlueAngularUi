@@ -1,72 +1,442 @@
 [
   {
     "id": 0,
-    "isActive": true,
-    "balance": "$3,706.89",
+    "guid": "f955fbdf-d46b-46c7-a4d6-d9ff1ccbd810",
+    "isActive": false,
+    "balance": "$3,137.37",
     "picture": "http://placehold.it/32x32",
-    "age": 33
+    "age": 32,
+    "eyeColor": "green",
+    "name": "Effie Cobb",
+    "gender": "female",
+    "company": "EZENT",
+    "email": "effiecobb@ezent.com",
+    "phone": "+1 (966) 518-3083",
+    "address": "747 Colonial Court, Brownlee, South Carolina, 6695",
+    "about": "Magna cillum pariatur id sit deserunt adipisicing dolor officia culpa irure. Cillum enim mollit et ex. Exercitation aute laboris exercitation ea cillum deserunt reprehenderit in voluptate sint velit do aliqua.\r\n",
+    "registered": "2014-03-21T01:53:13 +04:00",
+    "latitude": -15.899267,
+    "longitude": 9.578434,
+    "tags": [
+      "laborum",
+      "officia",
+      "ea",
+      "excepteur",
+      "aliqua",
+      "ut",
+      "minim"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Erma Dunlap"
+      },
+      {
+        "id": 1,
+        "name": "Colleen Solis"
+      },
+      {
+        "id": 2,
+        "name": "Parsons Ratliff"
+      }
+    ],
+    "greeting": "Hello, Effie Cobb! You have 1 unread messages.",
+    "favoriteFruit": "strawberry"
   },
   {
     "id": 1,
-    "isActive": false,
-    "balance": "$3,583.00",
+    "guid": "68c0849f-88e2-4ab3-aa5a-699a29a08481",
+    "isActive": true,
+    "balance": "$2,563.76",
     "picture": "http://placehold.it/32x32",
-    "age": 20
+    "age": 37,
+    "eyeColor": "brown",
+    "name": "Herman Callahan",
+    "gender": "male",
+    "company": "ASIMILINE",
+    "email": "hermancallahan@asimiline.com",
+    "phone": "+1 (925) 567-3283",
+    "address": "573 Brighton Avenue, Benson, Maryland, 5020",
+    "about": "Ut minim irure nisi enim commodo officia. Ut consequat cupidatat quis esse magna laborum proident consectetur id mollit nisi. Est et Lorem aliquip aute culpa qui fugiat velit non cupidatat. Voluptate incididunt esse excepteur ad laborum voluptate anim anim ullamco laboris amet amet. Qui consequat aliquip dolore eiusmod adipisicing commodo et elit minim aliquip.\r\n",
+    "registered": "2014-04-02T07:50:01 +04:00",
+    "latitude": 80.76059,
+    "longitude": -109.511344,
+    "tags": [
+      "commodo",
+      "in",
+      "ex",
+      "tempor",
+      "duis",
+      "reprehenderit",
+      "exercitation"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Avery Mosley"
+      },
+      {
+        "id": 1,
+        "name": "Maritza Carroll"
+      },
+      {
+        "id": 2,
+        "name": "Porter Wells"
+      }
+    ],
+    "greeting": "Hello, Herman Callahan! You have 10 unread messages.",
+    "favoriteFruit": "banana"
   },
   {
     "id": 2,
+    "guid": "f77a94f4-7f9e-4d0a-9ccb-c9cc100d46cc",
     "isActive": false,
-    "balance": "$3,882.96",
+    "balance": "$1,930.53",
     "picture": "http://placehold.it/32x32",
-    "age": 21
+    "age": 35,
+    "eyeColor": "green",
+    "name": "Carissa Mccormick",
+    "gender": "female",
+    "company": "ZANITY",
+    "email": "carissamccormick@zanity.com",
+    "phone": "+1 (940) 481-3364",
+    "address": "879 Essex Street, Conestoga, Virginia, 7254",
+    "about": "Occaecat labore in sunt anim laborum non qui ex quis enim proident. Sit eu fugiat aliqua cupidatat sunt eu ea ad cillum aliquip tempor pariatur. Id laboris proident sint eu consectetur ex laboris occaecat minim aliquip in. Mollit et officia laboris laboris quis laborum eiusmod elit sunt laboris cillum.\r\n",
+    "registered": "2014-01-10T13:28:56 +05:00",
+    "latitude": -85.700871,
+    "longitude": -44.634851,
+    "tags": [
+      "pariatur",
+      "magna",
+      "aute",
+      "ex",
+      "enim",
+      "velit",
+      "Lorem"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Cecelia Massey"
+      },
+      {
+        "id": 1,
+        "name": "Espinoza Chapman"
+      },
+      {
+        "id": 2,
+        "name": "Hillary Gillespie"
+      }
+    ],
+    "greeting": "Hello, Carissa Mccormick! You have 4 unread messages.",
+    "favoriteFruit": "banana"
   },
   {
     "id": 3,
-    "isActive": true,
-    "balance": "$3,326.09",
+    "guid": "eda84dd7-06b7-4cb9-b747-77d4d261b954",
+    "isActive": false,
+    "balance": "$3,899.63",
     "picture": "http://placehold.it/32x32",
-    "age": 28
+    "age": 33,
+    "eyeColor": "brown",
+    "name": "Moreno Nolan",
+    "gender": "male",
+    "company": "KOG",
+    "email": "morenonolan@kog.com",
+    "phone": "+1 (906) 600-3550",
+    "address": "456 Carroll Street, Kirk, Delaware, 5362",
+    "about": "Magna in tempor eiusmod do occaecat occaecat irure anim eiusmod. Qui anim sunt qui sunt proident eiusmod esse cillum dolor dolor consectetur. Ea quis cupidatat consequat mollit magna. Exercitation voluptate veniam quis quis commodo deserunt reprehenderit nulla velit sint aliquip labore aliquip incididunt. Dolor elit consectetur exercitation adipisicing. Est commodo esse ullamco sunt mollit est consequat Lorem elit. Reprehenderit adipisicing cupidatat sint velit.\r\n",
+    "registered": "2014-05-08T20:26:11 +04:00",
+    "latitude": -63.93648,
+    "longitude": 173.707648,
+    "tags": [
+      "in",
+      "aliquip",
+      "fugiat",
+      "ad",
+      "sunt",
+      "laboris",
+      "eu"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Walls Wilson"
+      },
+      {
+        "id": 1,
+        "name": "Greene Walker"
+      },
+      {
+        "id": 2,
+        "name": "Pamela Lynn"
+      }
+    ],
+    "greeting": "Hello, Moreno Nolan! You have 8 unread messages.",
+    "favoriteFruit": "apple"
   },
   {
     "id": 4,
-    "isActive": true,
-    "balance": "$1,193.61",
+    "guid": "9619cece-841a-41fe-b579-62204cb4b686",
+    "isActive": false,
+    "balance": "$1,632.62",
     "picture": "http://placehold.it/32x32",
-    "age": 26
+    "age": 21,
+    "eyeColor": "brown",
+    "name": "Lenora Holcomb",
+    "gender": "female",
+    "company": "HOMELUX",
+    "email": "lenoraholcomb@homelux.com",
+    "phone": "+1 (836) 475-3844",
+    "address": "721 Bushwick Court, Topaz, Nevada, 8264",
+    "about": "Nulla anim enim quis mollit nulla esse quis consequat adipisicing. Aliqua dolore quis magna duis velit tempor duis excepteur dolor. Voluptate sunt ex enim mollit velit consequat fugiat occaecat occaecat. Voluptate anim voluptate occaecat id. Ipsum aute laborum laboris aliqua consequat ullamco culpa aliqua nisi culpa proident et sunt. Cupidatat aliquip labore duis occaecat elit. Do sint reprehenderit irure cupidatat nulla deserunt ea duis est.\r\n",
+    "registered": "2014-03-01T12:51:36 +05:00",
+    "latitude": -83.901662,
+    "longitude": -146.579667,
+    "tags": [
+      "anim",
+      "sint",
+      "veniam",
+      "non",
+      "commodo",
+      "non",
+      "eiusmod"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Chelsea Lucas"
+      },
+      {
+        "id": 1,
+        "name": "Helene Oneil"
+      },
+      {
+        "id": 2,
+        "name": "Hernandez Rios"
+      }
+    ],
+    "greeting": "Hello, Lenora Holcomb! You have 10 unread messages.",
+    "favoriteFruit": "strawberry"
   },
   {
     "id": 5,
-    "isActive": true,
-    "balance": "$2,503.80",
+    "guid": "53093f61-02eb-483c-a804-daf076d8be09",
+    "isActive": false,
+    "balance": "$2,690.86",
     "picture": "http://placehold.it/32x32",
-    "age": 33
+    "age": 39,
+    "eyeColor": "green",
+    "name": "Janette Vincent",
+    "gender": "female",
+    "company": "NSPIRE",
+    "email": "janettevincent@nspire.com",
+    "phone": "+1 (841) 591-2045",
+    "address": "888 Schenck Court, Lund, California, 8139",
+    "about": "Do labore quis enim non. Commodo non id esse sit qui occaecat esse deserunt laboris occaecat esse reprehenderit adipisicing quis. Anim mollit excepteur ea velit commodo ullamco incididunt nisi sunt laboris enim sint enim. Velit consequat fugiat nulla ea fugiat. Ut ullamco elit sit laborum nulla aliqua mollit commodo non. Minim magna et qui deserunt ad aliquip culpa in laborum.\r\n",
+    "registered": "2014-01-04T09:17:41 +05:00",
+    "latitude": -58.149641,
+    "longitude": -90.967013,
+    "tags": [
+      "ut",
+      "tempor",
+      "voluptate",
+      "consectetur",
+      "consequat",
+      "et",
+      "labore"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Sargent Mckenzie"
+      },
+      {
+        "id": 1,
+        "name": "Elise Burks"
+      },
+      {
+        "id": 2,
+        "name": "Horton Small"
+      }
+    ],
+    "greeting": "Hello, Janette Vincent! You have 3 unread messages.",
+    "favoriteFruit": "banana"
   },
   {
     "id": 6,
+    "guid": "3b3342dd-8eaa-4edb-99bf-ffb8300e327c",
     "isActive": false,
-    "balance": "$2,578.18",
+    "balance": "$2,774.17",
     "picture": "http://placehold.it/32x32",
-    "age": 32
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "Solis Galloway",
+    "gender": "male",
+    "company": "INSURITY",
+    "email": "solisgalloway@insurity.com",
+    "phone": "+1 (834) 464-2086",
+    "address": "538 Brooklyn Avenue, Kersey, New York, 2778",
+    "about": "Aliquip amet mollit veniam ex deserunt commodo duis elit est culpa. Tempor labore non reprehenderit aliquip commodo ullamco. Non veniam labore proident labore ad labore laboris irure nulla ea minim. Adipisicing cupidatat culpa qui sunt officia.\r\n",
+    "registered": "2014-01-01T12:25:12 +05:00",
+    "latitude": -31.295559,
+    "longitude": -70.878307,
+    "tags": [
+      "minim",
+      "pariatur",
+      "consequat",
+      "duis",
+      "adipisicing",
+      "nostrud",
+      "nostrud"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Irma Mccall"
+      },
+      {
+        "id": 1,
+        "name": "Cathleen Fox"
+      },
+      {
+        "id": 2,
+        "name": "Duffy Wade"
+      }
+    ],
+    "greeting": "Hello, Solis Galloway! You have 5 unread messages.",
+    "favoriteFruit": "strawberry"
   },
   {
     "id": 7,
-    "isActive": true,
-    "balance": "$1,632.07",
+    "guid": "a6031f93-a435-42c8-987d-59b3b8775fc6",
+    "isActive": false,
+    "balance": "$1,653.15",
     "picture": "http://placehold.it/32x32",
-    "age": 40
+    "age": 25,
+    "eyeColor": "green",
+    "name": "Dorthy Sandoval",
+    "gender": "female",
+    "company": "INSURON",
+    "email": "dorthysandoval@insuron.com",
+    "phone": "+1 (939) 507-2304",
+    "address": "284 Kenilworth Place, Nanafalia, Kansas, 4594",
+    "about": "Pariatur nulla et culpa laboris minim. Cillum ad duis irure cillum et magna qui do quis qui nulla. Duis laboris ex consectetur eu. Lorem excepteur in exercitation consectetur minim. Officia eu sint mollit ullamco nulla adipisicing enim qui. Fugiat in laboris ea deserunt labore ut et amet laborum ea dolore. Fugiat mollit adipisicing ex commodo reprehenderit Lorem proident Lorem aute exercitation consequat excepteur quis.\r\n",
+    "registered": "2014-01-20T16:40:01 +05:00",
+    "latitude": 42.40325,
+    "longitude": -173.88591,
+    "tags": [
+      "ipsum",
+      "anim",
+      "sint",
+      "cupidatat",
+      "aliqua",
+      "et",
+      "qui"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Marianne Cruz"
+      },
+      {
+        "id": 1,
+        "name": "Luz Donovan"
+      },
+      {
+        "id": 2,
+        "name": "Pearl Boyer"
+      }
+    ],
+    "greeting": "Hello, Dorthy Sandoval! You have 1 unread messages.",
+    "favoriteFruit": "apple"
   },
   {
     "id": 8,
-    "isActive": true,
-    "balance": "$1,006.76",
+    "guid": "224ed241-bfc0-4df6-a69e-b14aaf36ed2c",
+    "isActive": false,
+    "balance": "$3,133.46",
     "picture": "http://placehold.it/32x32",
-    "age": 23
+    "age": 39,
+    "eyeColor": "green",
+    "name": "Allison Mathews",
+    "gender": "male",
+    "company": "MAGNINA",
+    "email": "allisonmathews@magnina.com",
+    "phone": "+1 (876) 564-2084",
+    "address": "259 Hendrickson Street, Loma, Montana, 7463",
+    "about": "Irure ipsum nisi commodo laborum exercitation dolore nostrud cillum exercitation esse eiusmod anim. Dolor culpa cillum ipsum elit minim id mollit. Labore id enim consectetur dolore laboris nulla. Est ad tempor ullamco qui elit. Nisi excepteur ullamco esse aliquip magna elit ipsum reprehenderit excepteur anim commodo laborum aute do.\r\n",
+    "registered": "2014-03-27T16:55:54 +04:00",
+    "latitude": -34.424366,
+    "longitude": 133.661383,
+    "tags": [
+      "ullamco",
+      "laboris",
+      "aute",
+      "ad",
+      "veniam",
+      "nostrud",
+      "in"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Dorsey Harris"
+      },
+      {
+        "id": 1,
+        "name": "Chaney Johns"
+      },
+      {
+        "id": 2,
+        "name": "Mcfarland Wilcox"
+      }
+    ],
+    "greeting": "Hello, Allison Mathews! You have 3 unread messages.",
+    "favoriteFruit": "banana"
   },
   {
     "id": 9,
+    "guid": "d503f4d9-94a7-429a-b6fd-42d811680656",
     "isActive": true,
-    "balance": "$2,614.16",
+    "balance": "$1,139.37",
     "picture": "http://placehold.it/32x32",
-    "age": 36
+    "age": 39,
+    "eyeColor": "green",
+    "name": "Orr Day",
+    "gender": "male",
+    "company": "COWTOWN",
+    "email": "orrday@cowtown.com",
+    "phone": "+1 (955) 530-3559",
+    "address": "639 Colby Court, Bagtown, Arizona, 2621",
+    "about": "Aliqua magna culpa fugiat enim officia consectetur magna cillum laborum. Cupidatat irure sit sunt reprehenderit laborum aliquip esse mollit id irure aute labore velit. Do laboris mollit laborum consequat. Est laboris mollit nulla voluptate est ea cillum qui magna. Fugiat ullamco commodo irure et.\r\n",
+    "registered": "2014-04-11T21:28:47 +04:00",
+    "latitude": 66.907361,
+    "longitude": 116.99577,
+    "tags": [
+      "commodo",
+      "quis",
+      "officia",
+      "nostrud",
+      "incididunt",
+      "incididunt",
+      "pariatur"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Margo Collins"
+      },
+      {
+        "id": 1,
+        "name": "Bullock Whitley"
+      },
+      {
+        "id": 2,
+        "name": "Brianna Cooper"
+      }
+    ],
+    "greeting": "Hello, Orr Day! You have 4 unread messages.",
+    "favoriteFruit": "apple"
   }
 ]

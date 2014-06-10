@@ -36,5 +36,16 @@ angular.module('blueUiApp')
      */
     $http.get('json/sample-data.json').success(function(data) {
       $scope.gridData = data;
-    })
+    });
+
+    /*
+     * Set grid model
+     */
+    $scope.gridModel = [
+      { title: 'ID',      name: 'id',       type: 'string' },
+      { title: 'ACTIVE',  name: 'isActive', type: 'string' },
+      { title: 'BALANCE', name: 'balance',  type: 'string' },
+      { title: 'PICTURE', name: 'picture',  type: 'string' },
+      { title: 'AGE',     name: 'age',      type: 'string' }
+    ];
   });
