@@ -17,6 +17,17 @@ Ex. $locationProvider.html5Mode(true).hashPrefix('!');
 | data  | array of objects  | 'title' and 'link 'required as object attributes |
 | navbar-title  | string  | if set title will display in the navbar, if not nothing will be displayed. |
 
+#### Bootstrap Grid:
+
+```HTML
+<grid data="gridData" grid-model="gridModel"></grid>
+```
+
+| Attribute  | Type | Definition
+| ------------- | ------------- | ------------- |
+| data  | array of objects  | accepts standard JSON array |
+| dataModel  | array of objects  | Define the columns to be displayed. Set the column title, the name of the property and the type |
+
 #### Searchable Option Menu:
 
 ```HTML
