@@ -15,7 +15,7 @@
 
   <div class="grid-body">
     <div class="row" ng-repeat="item in finalData">
-      <div class="col-sm-3" ng-repeat="attr in item" ng-style="setWidth()">{{attr}}</div>
+      <div class="col-sm-3" ng-repeat="attr in item track by $index" ng-style="setWidth()">{{attr}}</div>
     </div>
   </div>
 

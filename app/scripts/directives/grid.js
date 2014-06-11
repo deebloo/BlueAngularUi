@@ -16,14 +16,14 @@ angular.module('blueUiApp')
           var data = [];
 
           if(scope.data !== undefined) {
-            for(var y = 0; y < scope.data.length; y++) {
-              var record = {};
+            for(var i = 0; i < scope.data.length; i++) {
+              var record = [];
 
               if(scope.gridModel !== undefined) {
-                for (var i = 0; i < scope.gridModel.length; i++) {
-                  var prop = scope.gridModel[i].name;
+                for (var x = 0; x < scope.gridModel.length; x++) {
+                  var prop = scope.gridModel[x].name;
 
-                  record[prop] = scope.data[y][prop];
+                  record[x] = scope.data[i][prop];
                 }
 
                 data.push(record);
@@ -37,7 +37,6 @@ angular.module('blueUiApp')
         };
 
         scope.$watch('data', function() {
-          console.log('I');
           scope.gridData();
         });
 

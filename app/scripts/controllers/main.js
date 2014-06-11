@@ -34,7 +34,7 @@ angular.module('blueUiApp')
     /*
      * Grid Data
      */
-    $http.get('json/sample-data.json').success(function(data) {
+    $http.get('../json/sample-data.json').success(function(data) {
       $scope.gridData = data;
     });
 
